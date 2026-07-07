@@ -13,7 +13,11 @@
 /// int idade = 15;
 /// double altura = 1.75;
 /// char sexo = 'F';
-/// 
+/// Pode mudar o tipo de variavel tambem
+/// int x;
+/// double y;
+///  x = 5;
+/// y = (double) x;
 
 import java.util.Locale;
 
