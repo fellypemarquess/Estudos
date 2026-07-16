@@ -8,7 +8,7 @@ public class ex005 {
 
         System.out.print("Que horas são? ");
         hora = sc.nextInt();
-
+        System.out.println((hora>12) ? "Não sei" : "Vai dar certo");
         if (hora<12 && hora>=6) {
             System.out.println("Bom dia!");
         }
@@ -18,6 +18,7 @@ public class ex005 {
         else{
             System.out.println("Boa noite!");
         }
+
         sc.close();
     }
 }
