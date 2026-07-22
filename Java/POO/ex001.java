@@ -1,5 +1,6 @@
 package POO;
 import java.util.Scanner;
+
 // Testando um programa sem o POO
 
 public class ex001 {
