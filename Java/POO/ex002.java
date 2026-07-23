@@ -29,24 +29,19 @@ public class ex002 {
         System.out.print("Lado c: ");
         y.c = sc.nextDouble();
 
-        double p = (x.a + x.b + x.c) / 2;
-        double p1 = (y.a + y.b + y.c) / 2;
+        double areaX = x.area();
+        double areaY = y.area();
 
-        double area = Math.sqrt((p * (p - x.a) * (p - x.b) * (p - x.c)));
-        double area1 = Math.sqrt(p1 * (p1 - y.a) * (p1 - y.b) * (p1 - y.c));
+        System.out.printf("Area do triangulo X: %.2f\n", areaX);
+        System.out.printf("Area do triangulo Y: %.2f\n", areaY);
 
-
-        System.out.printf("Area do triangulo X: %.2f\n", area);
-        System.out.printf("Area do triangulo Y: %.2f\n", area1);
-
-        double result = Math.max(area, area1);
-        if (result == area1) {
+        double result = Math.max(areaX, areaY);
+        if (result == areaY) {
             test = 'Y';
         } else {
             test = 'X';
         }
         System.out.printf("A maior área foi %.2f que representa %c", result, test);
-
 
         sc.close();
     }
