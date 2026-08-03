@@ -12,6 +12,11 @@ public class Product {
         this.qtd = qtd;
     }
 
+    public Product(String name, double price){
+        this.name = name;
+        this.price = price;
+    }
+
     public double stockValue(){
         return price*qtd;
     }

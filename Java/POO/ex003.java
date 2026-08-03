@@ -11,15 +11,12 @@ public class ex003 {
         String name = sc.nextLine();
         System.out.print("Price: ");
         double price = sc.nextDouble();
-        System.out.print("Quantity in stock: ");
-        int qtd = sc.nextInt();
-
-        Product p1 = new Product(name,price,qtd);
+        Product p1 = new Product(name,price);
 
 
         System.out.println("Product data: " + p1);
         System.out.print("Enter the number of products to add in Stock: ");
-        qtd = sc.nextInt();
+        int qtd = sc.nextInt();
         p1.addProduct(qtd);
         System.out.println("Update data: " + p1);
         System.out.print("Enter the number of products to remove from Stock: ");
