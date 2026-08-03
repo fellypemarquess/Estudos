@@ -13,6 +13,16 @@ public class ex003 {
         double price = sc.nextDouble();
         Product p1 = new Product(name,price);
 
+        p1.setName("Jõao");
+        System.out.printf("O novo nome %s\n",p1.getName());
+
+        p1.setPrice(50);
+        System.out.print(p1.getPrice());
+
+
+        p1.setQtd(50);
+
+        System.out.print(p1.getQtd());
 
         System.out.println("Product data: " + p1);
         System.out.print("Enter the number of products to add in Stock: ");
