@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+/* # em CSS é id em HTML
+   . em CSS é class em HTML
+*/
+
+body{
+    background-color: greenyellow;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1{
+    color: blue;
+}
+
+h1#principal{
+    text-align: center;
+    background-color: azure;
+}
+
+
+.basico{
+    color: brown;
+    background-color: grey;
+    text-align: center;
+}
+
+.intermediario{
+    color: aqua;
+}
+
+.avancado{
+    color: pink;
+    text-align: center;
+}
+
+h2{
+    color: beige;
+}
