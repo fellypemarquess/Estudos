@@ -25,7 +25,7 @@ public class Bank {
     public Bank(int account, String name, double cash) {
         this.account = account;
         this.name = name;
-        this.cash = cash;
+        addCash(cash);
     }
 
     public Bank(int account, String name) {
